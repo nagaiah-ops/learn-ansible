@@ -1,0 +1,20 @@
+- name: demo on multi play1
+  hosts: almalinux
+  connection: local
+  tasks:
+  - name: play 1 and task 1
+    debug:
+      msg: "play 1 and task 1"
+  - name: play 1 and task 2
+    debug:
+      msg: "play 1 and task 2"
+- name: demo on multi play2
+  hosts: almalinux
+  connection: local
+  tasks:
+  - name: play 2 and task 1
+    debug:
+      msg: "play 2 and task 1"
+  - name: play 2 and task 2
+    debug:
+      msg: "play 2 and task 2"

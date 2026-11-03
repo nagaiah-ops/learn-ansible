@@ -1,0 +1,7 @@
+- name: demo on debug
+  hosts: almalinux
+  connection: local
+  tasks:
+  - name: print hello world
+    debug:
+      msg: "Hello Ansible!"

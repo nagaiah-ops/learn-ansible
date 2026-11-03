@@ -1,0 +1,9 @@
+stdudent:
+  id: 123
+  name: nagaiah
+  email: nagaiah@email.com
+  address:
+    street: street
+    city: city
+    state: state
+    country: country

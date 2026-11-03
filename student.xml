@@ -1,0 +1,11 @@
+<student>
+    <id>123</id>
+    <name>nagaiah</name>
+    <email>nagaiah@email.com</email>
+    <address>
+        <street>street 1</street>
+        <city>city</city>
+        <state>state</state>
+        <country>country</country>
+    </address>
+</student>
